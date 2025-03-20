@@ -32,3 +32,7 @@ int main(void){
 
     outPrint(result);               //call output function to print result
 }
+
+//Modular design refers to breaking a system into smaller, independent parts (modules) that work together.
+//Modular design makes software development more efficient, scalable, and maintainable. 
+//It improves collaboration, testing, and flexibility while reducing costs and complexity. 
