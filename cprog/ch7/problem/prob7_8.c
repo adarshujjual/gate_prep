@@ -10,9 +10,9 @@ int compStr(char str1[],char str2[]){
     int i = 0; //initialize counter
 
     while(str1[i] != '\0' && str2[i] != '\0'){ //run full length of both strings
-        if(str1[i] < str2[i]){ //string2 comes first alphabetically
+        if(str1[i] < str2[i]){ //string1 comes first alphabetically
             return 1;
-        }else if(str1[i] > str2[i]){//string1 comes first alphabetically
+        }else if(str1[i] > str2[i]){//string2 comes first alphabetically
             return -1;
         }
         i++;
