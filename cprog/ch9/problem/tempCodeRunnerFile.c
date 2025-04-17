@@ -1,0 +1,1 @@
+gcc readfile.c -o readfile
